@@ -27,13 +27,14 @@ Then run 'utilities/dataprocess. py', align the Excel data by file name, and mer
 utils/dataprocess.py
 ```
 
-
-
-
-
-
 ### (a) Initial training phase
 In the initial training phase, the system receives multimodal input data from the initial samples, including texture images, pressing force, and sliding speed. Texture images are extracted with high-level visual features using ResNet50 network, and their dimensions are adjusted to be consistent with temporal modes through linear layer mapping. The interactive action signals (based on pressure and sliding speed) are segmented and normalized through sliding windows to ensure comparability and stability of the temporal inputs. Subsequently, multi-modal features are fused in parallel and input into the Bi Mamba encoder for deep feature extraction. Finally, the deep features are mapped back to the temporal space through a decoder to generate acceleration and friction signals, completing the training of the initial tactile rendering network and constructing the initial pre training model.
+
+Adjust 'args. is_training==1' in 'configs/configs. py' and train the model using 'main. py'. Adjust parameters such as epoch and batch_2 according to the training environment, and finally obtain the trained PTH file as the basic training result for the model.
+```bash
+main.py
+```
+
 
 
 
