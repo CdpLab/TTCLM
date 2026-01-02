@@ -1,7 +1,7 @@
 #  <p align="center">Multi-dimensional Texture Haptic Display Method based on Generative Replay Incremental Learning Model</p>
 
 <p align="center">
-Dapeng Chen, Zhangjia Deng, Yi Ding, Hong Zeng, Xuhui Hu, Lina Wei, Jia Liu, and Aiguo Song 
+Dapeng Chen, Zhangjia Deng, Yi Ding, Xuhui Hu, Hui Zhang, Lina Wei, Jia Liu, and Aiguo Song 
 </p>
 
 <p align="center">
