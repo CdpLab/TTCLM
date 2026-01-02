@@ -1,4 +1,12 @@
-# Multi-dimensional Texture Tactile Reproduction Method based on Generative Replay Incremental Learning Model
+#  <p align="center">Multi-dimensional Texture Haptic Display Method based on Generative Replay Incremental Learning Model</p>
+
+<p align="center">
+Dapeng Chen, Zhangjia Deng, Yi Ding, Hong Zeng, Xuhui Hu, Lina Wei, Jia Liu, and Aiguo Song 
+</p>
+
+<p align="center">
+Nanjing University of Information Science and Technology  
+</p>
 
 <h3 align="center">ABSTRACT</h3>
 
