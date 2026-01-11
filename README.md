@@ -1,13 +1,5 @@
 #  <h1 align="center">Multidimensional Texture Haptic Display based on Generative Replay Incremental Learning Model</h1>
 
-<p align="center">
-Dapeng Chen, Zhangjia Deng, Yi Ding, Xuhui Hu, Hui Zhang, Lina Wei, Jia Liu, and Aiguo Song 
-</p>
-
-<p align="center">
-Nanjing University of Information Science and Technology  
-</p>
-
 ---
 <h2 align="center">ABSTRACT</h2>
 
@@ -17,7 +9,7 @@ With the continuous expansion of texture sample data, the texture haptic model n
 
 <h2 align="center">Texture Haptic Continuous Learning Model</h2>
 
- Building upon prior work【Chen D, Ding Y, Gao P, et al. Multidimensional Texture Haptic Cross-modal Generation and Display Method based on Bi-Mamba Network [J]. IEEE Transactions on Instrumentation and Measurement, 2025.】, we constructed a multidimensional texture haptic rendering model based on multi-modal data (texture images and user interaction information) to generate acceleration and friction signals in real-time for user interactions with virtual textures. Building upon this foundation, this study introduces structural improvements and incorporates a continuous learning strategy based on a replay mechanism.The overall architecture is shown in the following figure.
+In our earlier work, we constructed a multidimensional texture haptic rendering model based on multi-modal data (texture images and user interaction information) to generate acceleration and friction signals in real-time for user interactions with virtual textures. Building upon this foundation, this study introduces structural improvements and incorporates a continuous learning strategy based on a replay mechanism.The overall architecture is shown in the following figure.
 
 <p align="center">
   <img src="fig2.jpg" alt="fig1" width="900"/>
